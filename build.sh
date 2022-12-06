@@ -9,6 +9,6 @@ elif [ "$CF_PAGES_BRANCH" == "staging" ]; then
   # "staging" should be replaced with the name of your specific branch
   npm run staging
 else
-  # Else run the dev script
+  # the dev script
   npm run dev
 fi
