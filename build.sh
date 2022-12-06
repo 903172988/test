@@ -10,5 +10,5 @@ elif [ "$CF_PAGES_BRANCH" == "staging" ]; then
   npm run staging
 else
   # Else run the dev script
-  vuepress dev
+  npm run dev
 fi
